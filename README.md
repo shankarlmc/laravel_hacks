@@ -29,3 +29,8 @@ npm run dev
 ```
 http://127.0.0.1:8000/login
 ```
+## To create a model, migration and controller
+```
+php artisan make:model Post -mcr
+```
+The 'make:model' command will make the model, however adding '-mcr' will also create a Migration and a Controller. The 'r' indicates that we want to create a Resource Controller.
